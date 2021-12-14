@@ -9,9 +9,13 @@
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.0",
+    "@expo-google-fonts/lato": "^0.2.0",
+    "@expo-google-fonts/oswald": "^0.2.0",
     "@react-native-community/eslint-config": "^3.0.1",
     "eslint": "^7.32.0",
     "expo": "~43.0.2",
+    "expo-font": "^10.0.3",
     "expo-status-bar": "~1.1.0",
     "metro": "^0.66.2",
     "prettier": "^2.5.1",

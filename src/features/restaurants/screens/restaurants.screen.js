@@ -23,8 +23,8 @@ export const RestaurantsScreen = () => (
     <SearchContainer>
       <Searchbar />
     </SearchContainer>
-    <RestaurantListContainer>
-      <ResturantInfoCard />
+    <RestaurantListContainer key={Math.random()}>
+      <ResturantInfoCard key={Math.random()} />
     </RestaurantListContainer>
   </SafeArea>
 );

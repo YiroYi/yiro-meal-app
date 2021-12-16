@@ -16,12 +16,12 @@ import {
 import star from "../../../../assets/star";
 import open from "../../../../assets/open";
 
-export const ResturantInfoCard = ({ restaurant = {} }) => {
+export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
     name = "Some restaurant",
     icon = "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
     photos = [
-      "https://cdn.alfabetajuega.com/wp-content/uploads/2021/08/Demon-Slayer-pord.jpg",
+      "https://media.vandal.net/m/96054/demon-slayer-kimetsu-no-yaiba-the-hinokami-chronicles-20218111174875_1.jpg",
     ],
     address = "My house",
     isOpenNow = true,

@@ -65,8 +65,8 @@ export default function App() {
         <NavigationContainer>
           <Tab.Navigator screenOptions={createScreenOptions}>
             <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
-            <Tab.Screen name="Maps" component={Map} />
-            <Tab.Screen name="Configure" component={Settings} />
+            <Tab.Screen name="Map" component={Map} />
+            <Tab.Screen name="Settings" component={Settings} />
           </Tab.Navigator>
         </NavigationContainer>
       </ThemeProvider>

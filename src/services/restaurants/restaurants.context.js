@@ -1,7 +1,7 @@
 import React, { useState, createContext, useEffect, useMemo } from "react";
 import {
   restaurantsRequest,
-  restaurantsTransform
+  restaurantsTransform,
 } from "./restaurants.service";
 
 export const RestaurantsContext = createContext();

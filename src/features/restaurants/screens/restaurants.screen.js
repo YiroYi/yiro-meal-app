@@ -5,7 +5,7 @@ import { RestaurantInfoCard } from "../components/restaurants-info-card.componen
 import { Spacer } from "../../../components/spacer/spacer.component";
 import styled from "styled-components/native";
 import { SafeArea } from "../../../components/utility/safe-area.component";
-import { RestaurantsContext } from "../../../services/restaurants.context";
+import { RestaurantsContext } from "../../../services/restaurants/restaurants.context";
 import { ActivityIndicator, Colors } from "react-native-paper";
 
 const SearchContainer = styled.View`

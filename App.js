@@ -1,6 +1,5 @@
 import React from "react";
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
-import { initializeApp } from "firebase/app";
 import { ThemeProvider } from "styled-components/native";
 import {
   useFonts as useOswald,
@@ -15,17 +14,6 @@ import { FavouritesContextProvider } from "./src/services/favourites/favorites.c
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 import { Navigation } from "./src/infrastructure/navigation";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyA6cb1jiK_Jwz2t5lMrbfV72yV-n7OawFc",
-  authDomain: "yiros-meals.firebaseapp.com",
-  projectId: "yiros-meals",
-  storageBucket: "yiros-meals.appspot.com",
-  messagingSenderId: "563474260522",
-  appId: "1:563474260522:web:64fc4957be0109ac369953",
-};
-
-const app = initializeApp(firebaseConfig);
 
 export default function App() {
   const [oswaldLoaded] = useOswald({

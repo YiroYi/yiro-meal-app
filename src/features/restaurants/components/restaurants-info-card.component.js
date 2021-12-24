@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native"
+import { View } from "react-native";
 import { SvgXml } from "react-native-svg";
 import { Spacer } from "../../../components/spacer/spacer.component";
 import { Text } from "../../../components/typography/text.component";
